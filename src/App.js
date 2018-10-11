@@ -27,6 +27,7 @@ class App extends Component {
                         </div>
                     </div>
 
+                    {/* ROUTES */}
                     <Switch>
                         <Route path="/" exact component={Landing} />
                         <Route path="/planets" component={Planets} />
